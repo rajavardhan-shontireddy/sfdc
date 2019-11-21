@@ -3,6 +3,7 @@ public without sharing class OpportunityController {
 @AuraEnabled(cacheable=true)
 public static List<Opportunity> getOpportunities(){
 
+    System.debug('sds');
 
  return [select Id,Name,Account.Name,StageName,(select Id,Name,Product2Id,Quantity from OpportunityLineItems) from Opportunity];
 }
