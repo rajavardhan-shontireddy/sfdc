@@ -12,9 +12,6 @@
     <name>ApexClass</name>
     <members>*</members>
   </types>
-  <types>
-    <name>ApexTrigger</name>
-    <members>*</members>
-  </types>
+ 
   <version>47.0</version>
 </Package>
